@@ -1,5 +1,5 @@
 #Move FilesGo.apk.gz to a PREBUILT?
-PRODUCY_COPY_FILES += \
+PRODUCT_COPY_FILES += \
 	vendor/gapps-go/bin/FilesGo.apk.gz:system/priv-app/FilesGo/FilesGo.apk.gz \
 	vendor/gapps-go/bin/privapp-permissions-google.xml:system/etc/permissions/privapp-permissions-google.xml \
 	vendor/gapps-go/bin/google.xml:system/etc/sysconfig/google.xml
