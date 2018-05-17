@@ -1,3 +1,5 @@
+LOCAL_PATH := $(call my-dir)
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := GoogleBackupTransport
 LOCAL_MODULE_TAGS := optional
