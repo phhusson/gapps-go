@@ -1,3 +1,4 @@
+ifneq ($(USE_PHH_GAPPS_GO),)
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
@@ -9,3 +10,4 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
+endif

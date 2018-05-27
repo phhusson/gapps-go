@@ -33,3 +33,5 @@ PRODUCT_PACKAGES += \
 	SetupWizard \
 	WebViewGoogle \
 	YouTubeGo
+
+USE_PHH_GAPPS_GO := true
