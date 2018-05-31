@@ -35,3 +35,6 @@ PRODUCT_PACKAGES += \
 	YouTubeGo
 
 USE_PHH_GAPPS_GO := true
+
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+	ro.control_privapp_permissions=log
